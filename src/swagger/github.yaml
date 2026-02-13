@@ -258,10 +258,11 @@ components:
         action:
           type: string
           enum:
-            - published
-            - prereleased
-            - released
             - created
+            - edited
+            - prereleased
+            - published
+            - released
         release:
           type: object
           required:
